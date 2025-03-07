@@ -197,7 +197,7 @@ const PLCDataDisplay = () => {
     
     const timeout = setTimeout(() => {
       if (isMounted && !plcData) {
-        dummyInterval = setInterval(generateDummyData, 1000);
+        dummyInterval = setInterval(generateDummyData, 10);
       }
     }, 2000); // 5 saniye yerine 2 saniye
     
